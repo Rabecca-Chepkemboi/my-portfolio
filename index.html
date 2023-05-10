@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/06a2fefce6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="he">
+        <div class="container">
+            <nav>
+                <div>
+                <ul class="door1">Chepkemboi.</ul>
+            </div>
+                <ul class="door2">
+                    <li><a href="# header">Home</a></li>
+                    <li><a href="# about">About</a></li>
+                    <li><a href="# services">Services</a></li>
+                    <li><a href="# portfolio">Portfolio</a></li>
+                    <li><a href="# contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-xmark"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+            </nav>
+
+        </div>
+        
+    </div>
+
+<section class="door7">
+
+<div class="door3">
+    <ul class="door5">Software Developer</ul>
+    <br>
+    <br>
+    <ul class="door4">Hi, I am <span class="door6">Chepkemboi Rabecca</span><br>from Kenya.</ul>
+</div>
+
+<div>
+    <img src="/images/bec.png" alt="" class="door8">
+</div>
+
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<section class="mud1">
+
+<div class="doo">
+    <img src="/images/bec.png" alt=""  class="door9">
+</div>
+
+<div>
+    <br>
+    <br>
+    <br>
+    <h1 class="door10">About Me</h1>
+    <br>
+
+<div class="mud2">
+Hi there! I'm Chepkemboi, a tech student at AkiraChix with a passion for innovation 
+<br>
+ I love exploring new programming languages and techniques to increase my knowledge
+ <br>
+Throughout my studies, I've gained expertise in HTML/CSS where I am able to 
+<br>
+buld websites
+<br>
+ with also skill in design where by am able to design beautiful websites using
+ <br>
+ adobe illustrator
+</div>
+<br>
+<br>
+<br>
+<div class="tab-title">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+
+<div class="tab-contents active-tab" id="skills">
+    <ul>UI/UX<span><br>Designing web/app Interfaces</span></ul>
+    <br>
+    <ul>Web Development<span><br>Developing web apps</span></ul>
+    <br>
+    <ul>App Devepolment<span><br>Designing web/app Interfaces</span></ul>
+</div>
+
+<div class="tab-contents " id="experience">
+    <ul>Cyber Security<span><br>Designing web/app Interfaces</span></ul>
+    <br>
+    <ul>Web Development<span><br>Developing web apps</span></ul>
+    <br>
+    <ul>App Devepolment<span><br>Designing web/app Interfaces</span></ul>
+</div>
+
+<div class="tab-contents " id="education">
+    <ul>Kiungani Academy<span><br>2017-2020<br>Certificate In Secondary Education</span></ul>
+    <br>
+    <ul>AkiraChix<span><br>2023<br>Diploma In Software Development</span></ul>
+    <ul>Acquired skills in developing mobile apps and websites.</ul>
+</div>
+
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tablinkss){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tablinkss).classList.add("active-tab");
+    }
+    
+    
+    </script>
+
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="sec">
+
+<div class="tree1">
+    <h1  class="door11">Contact Me</h1>
+    <br>
+    <p> <i class="fa-solid fa-paper-plane"></i class></i>chepkemboirabecca@gmail.com</p>
+    <br>
+    <p> <i class="fa-solid fa-phone"></i>+254 716 607 726</p>
+    <br>
+    <div class="icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/Chepkemboi72960"><i class="fa-brands fa-twitter-square"></i></a>
+        <a href="https://www.linkedin.com/in/rabeccachepkemboi/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Rabecca-Chepkemboi?tab=repositories"><i class="fa-brands fa-github"></i></a>
+        <br>
+        <br>
+        <button class="mol1">Download CV</button>
+
+
+    </div>
+</div>
+
+<div class="tree2">
+    <input class="mol3" type="text" name="Name" placeholder="Entre yor name" required>
+    <br>
+    <br>
+    <input class="mol3" type="text" name="Email" placeholder="Entre your email" required>
+    <br>
+    <br>
+    <textarea class="mol3" name="Message" rows="5" placeholder="Your message"></textarea>
+    <br>
+    <br>
+    <button class="mol2" type="submit">Submit</button>
+
+
+</div>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+
+    
+</body>
+</html>
